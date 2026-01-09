@@ -2,3 +2,27 @@ html {
   height: 100%;
   width: 100%;
 }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+img{
+  border-radius: 10px;
+  height: 200px; 
+  
+    }
+img:hover{
+  transform:scale(1.5) ;
+  
+}
